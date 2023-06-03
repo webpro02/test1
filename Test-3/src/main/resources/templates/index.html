@@ -67,17 +67,17 @@
 	<div id="container">
 		<span th:if="${userId==null}" style="display: block; text-align: center;">
 			<a href = "https://kauth.kakao.com/oauth/authorize?client_id=2f38d649215042ce26f97c11d28ca69f&redirect_uri=http://localhost:8080/login&response_type=code">
-				<img src = "img/kakao_login.png">
+				<img src = "/img/kakao_login.png">
 			</a>
 		</span>
 		<span th:if="${userId==null}" style="display: block; text-align: center;">
 			<a href = "https://nid.naver.com/oauth2.0/authorize?client_id=HITMO18RZpwaCpSaX0Vy&redirect_uri=http://localhost:8080/login/naver&response_type=code">
-				<img src = "img/btnG_완성형.png" width = "180">
+				<img src = "/img/btnG_완성형.png" width = "180">
 			</a>
 		</span>
 		<span th:if="${userId==null}" style="display: block; text-align: center;">
 			<a href="https://accounts.google.com/o/oauth2/auth?client_id=1034093278574-n938gfqlq13r2eurtqqomk6sqlhniaa8.apps.googleusercontent.com&redirect_uri=http://localhost:8080/login/oauth2/code/google&response_type=code&scope=https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile">
-				<img src = "img/google_login.png">
+				<img src = "/img/google_login.png">
 			</a>
 		</span>
 		<span th:if="${userId==null}" style="display: block; text-align: center;">
